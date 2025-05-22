@@ -25,6 +25,11 @@ Or try the latest pre-release version:
 pip install resemble-enhance --upgrade --pre
 ```
 
+### Push to Google cloud / aritifacts repository
+```bash
+gcloud builds submit --tag us-central1-docker.pkg.dev/parta-human/resemble-enhance-api/resemble-enhance-api:cuda
+```
+
 ### Enhance
 
 ```
